@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap%27"); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../public/images/copaSuelo.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  text-shadow: 2px 2px black;
+}
+.fourCeroFour{
+  color: white;
+  font-size: 15rem;
+  font-family: 'Roboto Slab', serif;
+}
+.msg {
+  text-align: center;
+  font-size: 3rem;
+  width: 70%;
+  color: white;
+  font-size: 3rem;
+}
+.custom-linkRouter {
+  text-decoration: none;
+  color: rgb(178 18 52);
+  text-decoration: underline;
+}
+.custom-linkRouter:hover {
+  color: white;
+  text-decoration: underline;
+}
+@media screen and (max-width: 500px){
+  .fourCeroFour{
+    font-size: 10rem;
+  }
+  .msg {
+    font-size: 2rem;
+  }
+}
+.custom-linkRouter {
+    text-decoration: none;
+    color: rgb(178 18 52);
+    text-decoration: underline;
+}
+.custom-linkRouter:hover {
+    color: white;
+    text-decoration: underline;
+}

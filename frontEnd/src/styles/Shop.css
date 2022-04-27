@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+.shop{
+  background-color: rgba(177, 59, 85, 0.096);
+  padding-top: 20vh;
+  background-image: url('../../public/images/tablas.jpg');
+  background-size: 100vw;
+  background-repeat: repeat-y;
+  width: 100% !important;
+}
+.red{
+  color: rgb(178 18 52);
+}
+.div-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.subDiv-checkbox{
+  margin: 0 3vw;
+}
+.container-img-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  text-shadow: 2px 2px #333;
+  font-size: 5rem;
+}
+.section-shop{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3.5vh;
+  width: 100%;
+}
+.cardTopFive{
+  background-color: white;
+  padding: .8rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 1rem;
+  transition: all .4s;
+  min-width: 225px ;
+  max-width: 350px ;
+}
+.cardTopFive:hover{
+box-shadow: 0px 0px 6px 3px rgb(178 18 52);
+}
+.price{
+  text-align: end;
+}
+.shopBtn-div{
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  margin-top: .5rem;
+}
+.btnShop{
+  background-color: black;
+  padding: .5rem;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 44px;
+  width: 73px;
+}
+.btnShop:hover{
+  background-color: rgb(178 18 52);
+}
+.card-div-shop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wineImg{
+  height: 180px;
+  object-fit: cover;
+  /* width: 130px; */
+}
+.infoCard-div{
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.topFiveDiv{
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  max-width: 98vw;
+}
+.noWines{
+  width: auto;
+  max-width: 95%;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.filterText{
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+.inputSearch{
+  border: 1px solid #333;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  padding:0 4px;
+}
+/*////////////////////range////////////////////*/
+.range-input{
+  padding: 0 5px;
+  border: 1px solid #333;
+}
+.range-input:focus {
+  outline: none;
+}
+.range-input,
+.range-input::-webkit-slider-runnable-track,
+.range-input::-webkit-slider-thumb {
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+.range-input::-webkit-slider-thumb {
+  background-color: rgb(178 18 52);
+  width: 10px;
+  height: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-top: -9px;
+}
+.range-input::-moz-range-thumb {
+  background-color: rgb(178 18 52);
+  width: 10px;
+  height: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-top: -9px;
+}
+.range-input::-ms-thumb {
+  background-color: rgb(178 18 52);
+  width: 10px;
+  height: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-top: -9px;
+}
+.range-input::-webkit-slider-runnable-track {
+  background-color: #333;
+  height: 2px;
+}
+.range-input:focus::-webkit-slider-runnable-track {
+  outline: none;
+}
+.range-input::-moz-range-track {
+  background-color: #333;
+  height: 2px;
+}
+.range-input::-ms-track {
+  background-color: #333;
+  height: 2px;
+}
+.range-input::-ms-fill-lower {
+  background-color: black
+}
+.range-input::-ms-fill-upper {
+  background-color: black;
+} 
+/*///////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 450px){
+  .shop{
+    padding-top: 6vh;
+  }
+  .title{
+    text-align: center;
+  }
+  .div-checkbox {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px){
+  .shop{
+    padding-top: 18vh;
+    background-size: 1000px;
+  }
+  .section-shop{
+    margin-top: 2vh;
+  }
+  .title{
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 1000px){
+  .cardTopFive{
+    min-width: 300px !important;
+  }
+}

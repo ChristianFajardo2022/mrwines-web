@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3cdbf8a8.css",
+    "main.js": "/static/js/main.d4c60f09.js",
+    "static/media/corchos.jpg": "/static/media/corchos.508900b55ebb95d96fca.jpg",
+    "static/media/tablas.jpg": "/static/media/tablas.cd8c01d0f19e30e63902.jpg",
+    "static/media/botellas.jpg": "/static/media/botellas.4a4eb36b7d1f93759efd.jpg",
+    "static/media/backgroundSignIn.jpg": "/static/media/backgroundSignIn.c702715a80db97e27920.jpg",
+    "static/media/vineyards.jpg": "/static/media/vineyards.036b07f08c22b719a2ea.jpg",
+    "static/media/cup.jpg": "/static/media/cup.f3d592c932e5d7520105.jpg",
+    "static/media/backgroundForm.jpg": "/static/media/backgroundForm.7a1231206218ef6f5430.jpg",
+    "static/media/copaSuelo.jpg": "/static/media/copaSuelo.1566a07b092330af255e.jpg",
+    "static/media/cellar.jpg": "/static/media/cellar.ed180ee5f9b8c3a4dcde.jpg",
+    "static/media/copasVacias.jpg": "/static/media/copasVacias.9b77af2ba8bf9990f777.jpg",
+    "index.html": "/index.html",
+    "main.3cdbf8a8.css.map": "/static/css/main.3cdbf8a8.css.map",
+    "main.d4c60f09.js.map": "/static/js/main.d4c60f09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cdbf8a8.css",
+    "static/js/main.d4c60f09.js"
+  ]
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(https://cdn.discordapp.com/attachments/942931026911559680/960922112145653930/U2ZKKDKS5OIXEHE7JGNX2BOURA.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.div-1 {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    flex-direction: column;
+    width: 30rem;
+    text-align: center;
+    color: white;
+    margin-left: 40%;
+    margin-top: 5vh;
+}
+.div-2{
+    margin-top: 10vh;
+    font-size: 2.5rem;
+}
+.custom-linkRouter {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+.custom-linkRouter:hover {
+    color: rgb(178 18 52);
+    text-decoration: underline;
+}
+.custom-name {
+    font-weight: bold;
+    color: rgb(178 18 52);
+    margin-bottom: 5vh;
+    font-size: 5rem;
+}
+
+@media screen and (max-width:1000px){
+    .div-container {
+        background-size: cover;
+        background-position: top;
+    }
+    .div-container {
+        background-size: cover;
+        background-position: top;
+    }
+}
+@media screen and (max-width:805px){
+    .div-1 {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.603);
+        height: 100%;
+        width: 100%;
+        font-size: 3.2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .div-2 {
+        font-size: 3.2rem;
+    }
+    .p-1 {
+        margin: 0;
+        font-size: 3.2rem;
+    }
+}
+@media screen and (max-width:420px){
+    .div-1 {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.603);
+        height: 100%;
+        width: 100%;
+        font-size: 2.8rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .div-2 {
+        margin: 0;
+        font-size: 2.8rem;
+    }
+    .p-1 {
+        margin: 0;
+        font-size: 2.8rem;
+    }
+    .div-container {
+        margin: 0;
+    }
+}
+@media screen and (max-width:320px){
+    .div-1 {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.603);
+        height: 100%;
+        width: 100%;
+        font-size: 2.4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .div-2 {
+        margin: 0;
+        font-size: 2.4rem;
+    }
+    .p-1 {
+        margin: 0;
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width:240px){
+    .div-1 {
+        background-color: rgba(0, 0, 0, 0.603);
+        height: 100%;
+        width: 100%;
+        font-size: 1.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .div-2 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .p-1 {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    .p-2 {
+        margin-top: 2rem;
+    }
+}

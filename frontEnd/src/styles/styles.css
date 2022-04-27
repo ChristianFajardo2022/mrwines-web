@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.home-container{
+    background-color: white;
+    width: 100%;
+}
+.home {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topHome {
+    background-image: url('../../public/images/vineyards.jpg');
+}
+.bestWines {
+    background-image: url('../../public/images/cellar.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.aboutUs {
+    background-image: url('../../public/images/cup.jpg');
+}
+.logoHome{
+    width: 20vw;
+    padding-top: 17.5vh;
+}
+.slogan{
+    text-align: center;
+    color: rgb(178 18 52);
+    margin-top: -3vw;
+    max-width: 90vw;
+}
+.title{
+    text-shadow: 2px 2px #333;
+    font-size: 5rem;
+}
+.cardTopWines{
+    background-color: white;
+    padding: .8rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 1rem;
+    transition: all .4s;
+    width: 220px ;
+}
+.cardTopWines:hover{
+    box-shadow: 0px 0px 6px 3px rgb(178 18 52);
+}
+.price{
+    text-align: end;
+}
+.btnShop-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+.btnShop{
+    background-color: black;
+    padding: .5rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 44px;
+    width: 73px;
+}
+.btnShop:hover{
+    background-color: rgb(178 18 52);
+}
+.card-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topWineImg{
+    width: 130px;
+}
+.topFiveDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    max-width: 98vw;
+}
+.white{
+    color: white;
+}
+.aboutText{
+    width: 70vw;
+    max-height: 70vh;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    font-size: 1.5rem;
+    overflow-y: auto;
+}
+.logoTitle-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 26vh;
+}
+.containerFormSign{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    min-height:100vh !important;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    padding-top: 17.5vh;
+}
+.signBody{
+    display:flex;
+    flex-direction: column; 
+    border-radius:15px;
+    border:1px solid black;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    align-self:center;
+    min-height: 55vh;
+    min-width:40%;
+    margin-top: 4vh; 
+    backdrop-filter:blur(15px);
+}
+.inputForm{
+    margin-top:10px;
+     border-radius:5px;
+     height: 5vh;
+    border: 1px solid black; 
+    min-width: 280px;
+    max-width: 700px; 
+    margin: 1rem 0.75rem 0;
+    background-color:rgba(252, 252, 252, 0.70);
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+.inputForm::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: bold;
+}
+.btnForm{
+    margin-top:1rem;
+    height: 2em;
+    border:1px solid black;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius:5px;
+    color:white;
+    height:2.3em;
+    width:8em;
+    justify-content: center;
+    margin-bottom:1em;
+    font-family: 'Roboto', sans-serif;
+}
+.btnForm:hover{
+    background-color:rgba(0, 0, 0, 0.075);
+}
+.divBtn{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.googleImg{
+    height: 1.5rem;
+    width: auto;
+    padding: 2px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+.divGoogle{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.textForm{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin-bottom:2em;
+}
+.text-shadow{
+    text-shadow: 2px 2px #333;
+    font-size:1.2em;
+    text-align:center;
+    margin-top:2em;
+}
+.textForm p{
+    font-size:1.2em;
+    font-family: 'Roboto', sans-serif;
+    color:white !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.textDecoration{
+    text-decoration: none !important;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom:2px solid white;
+}
+.textDecoration:hover{
+    color:rgb(178 18 52);
+    font-weight: bold;
+    font-size:1em;
+    border-bottom:2px solid rgb(178 18 52);
+}
+.BgSignUp{
+    background-image: url('../../public/images/backgroundForm.jpg');
+    background-size:cover;
+    
+}
+.BgSignIn{
+    background-image: url('../../public/images/backgroundSignIn.jpg');
+    background-size:cover;
+}
+.GoogleImg{
+    width:6em;
+    height:4.2em;
+}
+.divGoogle{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:0;
+}
+.iconoNav{
+    color:white !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid white;
+    border-radius:2em !important;
+}
+.iconoNav:hover{
+    color: rgb(178 18 52) !important;
+    border: 1px solid rgb(178 18 52) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+@media screen and (max-width: 450px){
+    .signBody{
+        min-width: 300px !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .logoHome{
+      width: 60vw !important;
+    }
+    .signBody{
+        width:70%;
+    }
+    .containerForm{
+        padding-top:2em;
+    }
+    .title{
+        font-size: 2rem !important;
+    }
+    .aboutText{
+        width: 70vw;
+        max-height: 60vh;
+        margin: 1.5rem;
+        padding: 1rem;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.301);
+        font-size: .9rem;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .logoHome{
+        width: 40vw;
+    }
+    .containerForm{
+        min-height:115vh !important;
+    }
+    .title{
+        font-size: 3.5rem !important;
+    }
+    .cardTopFive{
+        margin: .5rem;
+    }
+    .signBody{
+        width:65%;
+    }
+}
+@media screen and (min-width: 1500px){
+    .cardTopFive{
+        margin: 2rem;
+    }
+    .bestWineImg{
+        width: 200px;
+    }
+    .aboutText{
+        width: 50vw;
+        max-height: 60vh;
+        margin: 1.5rem;
+        padding: 1.5rem;
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.301);
+        font-size: 2.5rem;
+        overflow-y: auto;
+    }
+}
